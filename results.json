@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "platform": "Perplexity",
+      "query": "example.com",
+      "targetDomain": "example.com",
+      "found": false,
+      "status": "error",
+      "error": "Request failed with status code 403",
+      "timestamp": 1752692875111,
+      "retryCount": 3
+    },
+    {
+      "platform": "SearchGPT",
+      "query": "example.com",
+      "targetDomain": "example.com",
+      "found": false,
+      "status": "error",
+      "error": "Request failed with status code 403",
+      "timestamp": 1752692893027,
+      "retryCount": 3
+    },
+    {
+      "platform": "You.com",
+      "query": "example.com",
+      "targetDomain": "example.com",
+      "found": false,
+      "status": "error",
+      "error": "Request failed with status code 403",
+      "timestamp": 1752692910852,
+      "retryCount": 3
+    },
+    {
+      "platform": "Phind",
+      "query": "example.com",
+      "targetDomain": "example.com",
+      "found": false,
+      "status": "error",
+      "error": "Request failed with status code 403",
+      "timestamp": 1752692928903,
+      "retryCount": 3
+    }
+  ],
+  "summary": {
+    "totalSearches": 4,
+    "foundCount": 0,
+    "errorCount": 4,
+    "successRate": 0,
+    "platformStats": {
+      "Perplexity": {
+        "found": 0,
+        "total": 1,
+        "errors": 1
+      },
+      "SearchGPT": {
+        "found": 0,
+        "total": 1,
+        "errors": 1
+      },
+      "You.com": {
+        "found": 0,
+        "total": 1,
+        "errors": 1
+      },
+      "Phind": {
+        "found": 0,
+        "total": 1,
+        "errors": 1
+      }
+    }
+  }
+}
